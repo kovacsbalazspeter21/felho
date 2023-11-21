@@ -1,0 +1,16 @@
+GNU nano 4.8 docker-compose.yaml
+version: '3'
+
+services:
+    webmail:
+        image: roundcube/roundcubemail
+        ports:
+        - 80:80/tcp
+        volumes:
+        - config:/var/roundcube/config/
+        - html:/var/www/html
+        - db:/var/roundcube/db
+volumes:
+  html: 
+  config:
+  db:
