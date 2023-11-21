@@ -1,0 +1,10 @@
+A követekző feladatok során kiadott ÖSSZES(!) utasításokat kérem egy roundcube.txt fájlba írni! (persze csak amik értelmessek voltak!)
+Ha docker-compose -t használsz akkor azt a fájlt is kérem beadni!
+
+
+Indítsd el a roundcubemail webmail szervert.
+Tedd elérhetővé a benne futó web szervert
+Az egyéni beállításoka lehetővé tevő könyvtárat tedd állandóvá (új konténer indításakor is maradjon meg) - Lásd a következő sort!
+Minden megtartandó /Persistent data/ adat maradjon meg!
+
+Sikeres indítás és a tanárnak bemutatása után - törölj mindent a feladt során a gépre került.
